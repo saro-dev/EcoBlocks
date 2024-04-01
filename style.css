@@ -1,0 +1,37 @@
+.btn1{
+    background-color: #236104 !important;
+    color: white !important;
+    padding: 8px 10px;
+    border-radius: 15px;
+    margin: 5px 10px;
+}
+.btn2{
+    color: #236104;
+}
+.btn2:hover{
+    color: #236104;
+}
+.tagline{
+    margin-bottom: -130px !important;
+}
+.hero-img{
+    position: absolute !important;
+    bottom: 0;
+    margin-bottom: -130px !important;
+}
+.content-inner{
+    position: relative !important;
+}
+.btn3{
+    background-color: #002789 !important;
+    color: white !important;
+    padding: 8px 10px;
+    border-radius: 15px;
+    margin: 5px 10px;
+}
+@media (max-width: 767.98px){
+.product-animate-wrapper .tagline {
+    font-size: 1.125rem;
+    margin-top: 30px;
+    margin-bottom: 0 !important;
+}}

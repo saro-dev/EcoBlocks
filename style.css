@@ -1,12 +1,16 @@
 .btn1{
     background-color: #236104 !important;
     color: white !important;
-    padding: 8px 10px;
+    padding: 8px 12px;
     border-radius: 15px;
     margin: 5px 10px;
 }
 .btn2{
     color: #236104;
+    border: 2px solid #236104;
+    padding: 8px 10px;
+    border-radius: 15px;
+    margin: 5px 10px;
 }
 .btn2:hover{
     color: #236104;

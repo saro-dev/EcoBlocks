@@ -11060,10 +11060,12 @@ body.archive .container {
 
 .dealer-list .owl-item .dealer-item {
     height: calc(100% - 30px)
+    
 }
 
 .dealer-list .dealer-item {
-    margin: 15px 0
+    margin: 15px 0;
+    width:450px;
 }
 
 .dealer-list .dealer-item .content-inner {

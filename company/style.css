@@ -1,0 +1,61 @@
+.about-hero{
+    display: flex;
+    justify-content: center;
+}
+.about-hero .child-content{
+    width: 45%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-weight: 500;
+    background-color: snow;
+    padding: 30px;
+}
+.about-hero .child-content p{
+    width: 100%;
+    font-size: 20px;
+}
+.about-hero .child-image{
+    width: 45%;
+    padding: 50px;
+    background-color: snow;
+}
+.btn3{
+    background-color: #002789 !important;
+    color: white !important;
+    padding: 8px 10px;
+    border-radius: 15px;
+    margin: 5px 10px;
+}
+.btn3:hover{
+    text-decoration: none;
+}
+.dealer-carousel{
+    -webkit-tap-highlight-color: transparent;
+    position: relative;
+    z-index: 1;
+    display: flex;
+    overflow-x: scroll;
+}
+.dealer-carousel .dealer-item{
+    width: 450px !important;
+    margin: 0 15px;
+}
+.dealer-carousel .dealer-item .content-inner{
+    width: 450px;
+    margin: 0 15px;
+}
+@media only screen and (max-width: 767px) {
+    .about-hero{
+        flex-direction: column;
+        width: 90%;
+        margin: 0 5%;
+        
+    }
+    .about-hero .child-image{
+        width: 100%;
+    }
+    .about-hero .child-content{
+        width: 100%;
+    }
+}

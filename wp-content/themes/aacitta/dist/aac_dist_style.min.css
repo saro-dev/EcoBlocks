@@ -10371,6 +10371,9 @@ a:focus {
     transition: 0.3s all ease-in-out;
     margin: 0 1.125em 1.125em 0
 }
+.blue-icon{
+    color: #2553b8 !important;
+}
 
 .btn:hover,
 .btn:focus {

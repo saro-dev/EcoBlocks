@@ -7453,109 +7453,175 @@
                   </div>
                   <section class="ftco-section" id="contact-form-section">
                     <div class="container">
-                        <div class="row justify-content-center">
-                            <div class="col-md-6 text-center mb-5">
-                                <h2 class="heading-section">Drop us a line</h2>
-                            </div>
+                      <div class="row justify-content-center">
+                        <div class="col-md-6 text-center mb-5">
+                          <h2 class="heading-section">Drop us a line</h2>
                         </div>
-                        <div class="row justify-content-center">
-                            <div class="col-md-12">
-                                <div class="wrapper">
-                                    <div class="row no-gutters mb-5">
-                                        <div class="col-md-7">
-                                            <div class="contact-wrap w-100 p-md-5 p-4">
-                                                <h3 class="mb-4">Contact Us</h3>
-                                                <div id="form-message-warning" class="mb-4"></div> 
-                                                <div id="form-message-success" class="mb-4">
-                                                    Your message was sent, thank you!
-                                                </div>
-                                                <form  id="contactForm" name="contactForm" class="contactForm">
-                                                    <div class="row">
-                                                        <div class="col-md-6">
-                                                            <div class="form-group">
-                                                                <label class="label" for="name">Full Name</label>
-                                                                <input type="text" class="form-control" name="name" id="name" placeholder="Name" required>
-                                                            </div>
-                                                        </div>
-                                                        <div class="col-md-6"> 
-                                                            <div class="form-group">
-                                                                <label class="label" for="contactNumber">Contact Number</label>
-                                                                <input type="tel" class="form-control" name="contactNumber" id="contactNumber" placeholder="Contact Number" required>
-                                                            </div>
-                                                        </div>
-                                                        <div class="col-md-6"> 
-                                                            <div class="form-group">
-                                                                <label class="label" for="email">Email Address</label>
-                                                                <input type="email" class="form-control" name="email" id="email" placeholder="Email" required>
-                                                            </div>
-                                                        </div>
-                                                        <div class="col-md-6">
-                                                            <div class="form-group">
-                                                                <label class="label" for="message">Message</label>
-                                                                <textarea name="message" class="form-control" id="message" cols="30" rows="4" placeholder="Message" required></textarea>
-                                                            </div>
-                                                        </div>
-                                                        <div class="col-md-12">
-                                                            <div class="form-group">
-                                                                <input type="submit" value="Send Message" class="btn btn-primary">
-                                                                <div class="submitting"></div>
-                                                            </div>
-                                                        </div>
-                                                    </div>
-                                                </form>
-                                            </div>
-                                        </div>
-                                        <div class="col-md-5 d-flex align-items-stretch">
-                                            <div id="map"></div>
-                                        </div>
-                                    </div>
+                      </div>
+                      <div class="row justify-content-center">
+                        <div class="col-md-12">
+                          <div class="wrapper">
+                            <div class="row no-gutters mb-5">
+                              <div class="col-md-7">
+                                <div class="contact-wrap w-100 p-md-5 p-4">
+                                  <h3 class="mb-4">Contact Us</h3>
+                                  <div
+                                    id="form-message-warning"
+                                    class="mb-4"
+                                  ></div>
+                                  <div id="form-message-success" class="mb-4">
+                                    Your message was sent, thank you!
+                                  </div>
+                                  <form name="contactForm" class="contactForm">
                                     <div class="row">
-                                        <div class="col-md-3">
-                                            <div class="dbox w-100 text-center">
-                                                <div class="icon d-flex align-items-center justify-content-center">
-                                                    <span class="fa fa-map-marker"></span>
-                                                </div>
-                                                <div class="text">
-                                                    <p><span>Address:</span> Opposite Imperial Towers, Sanepa, Kathmandu</p>
-                                                </div>
-                                            </div>
+                                      <div class="col-md-6">
+                                        <div class="form-group">
+                                          <label class="label" for="name"
+                                            >Full Name</label
+                                          >
+                                          <input
+                                            type="text"
+                                            class="form-control"
+                                            name="name"
+                                            id="name"
+                                            placeholder="Name"
+                                            required
+                                          />
                                         </div>
-                                        <div class="col-md-3">
-                                            <div class="dbox w-100 text-center">
-                                                <div class="icon d-flex align-items-center justify-content-center">
-                                                    <span class="fa fa-phone"></span>
-                                                </div>
-                                                <div class="text">
-                                                    <p><span>Phone:</span> <a href="tel://+919801137015">+91 9801137015</a></p>
-                                                </div>
-                                            </div>
+                                      </div>
+                                      <div class="col-md-6">
+                                        <div class="form-group">
+                                          <label
+                                            class="label"
+                                            for="contactNumber"
+                                            >Contact Number</label
+                                          >
+                                          <input
+                                            type="tel"
+                                            class="form-control"
+                                            name="contactNumber"
+                                            id="contactNumber"
+                                            placeholder="Contact Number"
+                                            required
+                                          />
                                         </div>
-                                        <div class="col-md-3">
-                                            <div class="dbox w-100 text-center">
-                                                <div class="icon d-flex align-items-center justify-content-center">
-                                                    <span class="fa fa-paper-plane"></span>
-                                                </div>
-                                                <div class="text">
-                                                    <p><span>Email:</span> <a href="mailto:info@aacblocks.com.np">info@aacblocks.com.np</a></p>
-                                                </div>
-                                            </div>
+                                      </div>
+                                      <div class="col-md-6">
+                                        <div class="form-group">
+                                          <label class="label" for="email"
+                                            >Email Address</label
+                                          >
+                                          <input
+                                            type="email"
+                                            class="form-control"
+                                            name="email"
+                                            id="email"
+                                            placeholder="Email"
+                                            required
+                                          />
                                         </div>
-                                        <div class="col-md-3">
-                                            <div class="dbox w-100 text-center">
-                                                <div class="icon d-flex align-items-center justify-content-center">
-                                                    <span class="fa fa-globe"></span>
-                                                </div>
-                                                <div class="text">
-                                                    <p><span>Website</span> <a href="#">aacblocks.com.np</a></p>
-                                                </div>
-                                            </div>
+                                      </div>
+                                      <div class="col-md-6">
+                                        <div class="form-group">
+                                          <label class="label" for="message"
+                                            >Message</label
+                                          >
+                                          <textarea
+                                            name="message"
+                                            class="form-control"
+                                            id="message"
+                                            cols="30"
+                                            rows="4"
+                                            placeholder="Message"
+                                            required
+                                          ></textarea>
                                         </div>
+                                      </div>
+                                      <div class="col-md-12">
+                                        <div class="form-group">
+                                          <input type="submit" value="Send Message" class="btn btn-primary" onclick="sendMessage(event)">
+                                          <div class="submitting"></div>
+                                        </div>
+                                      </div>
                                     </div>
+                                  </form>
                                 </div>
+                              </div>
+                              <div class="col-md-5 d-flex align-items-stretch">
+                                <div id="map"></div>
+                              </div>
                             </div>
+                            <div class="row">
+                              <div class="col-md-3">
+                                <div class="dbox w-100 text-center">
+                                  <div
+                                    class="icon d-flex align-items-center justify-content-center"
+                                  >
+                                    <span class="fa fa-map-marker"></span>
+                                  </div>
+                                  <div class="text">
+                                    <p>
+                                      <span>Address:</span> Opposite Imperial
+                                      Towers, Sanepa, Kathmandu
+                                    </p>
+                                  </div>
+                                </div>
+                              </div>
+                              <div class="col-md-3">
+                                <div class="dbox w-100 text-center">
+                                  <div
+                                    class="icon d-flex align-items-center justify-content-center"
+                                  >
+                                    <span class="fa fa-phone"></span>
+                                  </div>
+                                  <div class="text">
+                                    <p>
+                                      <span>Phone:</span>
+                                      <a href="tel://+919801137015"
+                                        >+91 9801137015</a
+                                      >
+                                    </p>
+                                  </div>
+                                </div>
+                              </div>
+                              <div class="col-md-3">
+                                <div class="dbox w-100 text-center">
+                                  <div
+                                    class="icon d-flex align-items-center justify-content-center"
+                                  >
+                                    <span class="fa fa-paper-plane"></span>
+                                  </div>
+                                  <div class="text">
+                                    <p>
+                                      <span>Email:</span>
+                                      <a href="mailto:info@aacblocks.com.np"
+                                        >info@aacblocks.com.np</a
+                                      >
+                                    </p>
+                                  </div>
+                                </div>
+                              </div>
+                              <div class="col-md-3">
+                                <div class="dbox w-100 text-center">
+                                  <div
+                                    class="icon d-flex align-items-center justify-content-center"
+                                  >
+                                    <span class="fa fa-globe"></span>
+                                  </div>
+                                  <div class="text">
+                                    <p>
+                                      <span>Website</span>
+                                      <a href="#">aacblocks.com.np</a>
+                                    </p>
+                                  </div>
+                                </div>
+                              </div>
+                            </div>
+                          </div>
                         </div>
+                      </div>
                     </div>
-                 </section>
+                  </section>
                 </div>
               </div>
             </div>
@@ -7994,5 +8060,59 @@
 <script src="contact-form/js/jquery.validate.min.js"></script>
 <script src="contact-form/js/google-map.js"></script>
 <script src="contact-form/js/main.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+    <script>
+      function sendMessage(event) {
+        event.preventDefault();
+        const submitBtn = document.querySelector('input[type="submit"]');
+        submitBtn.disabled = true;
+        submitBtn.value = 'Sending...';
+
+        const formData = {
+          name: document.getElementById("name").value,
+          contactNumber: document.getElementById("contactNumber").value,
+          email: document.getElementById("email").value,
+          message: document.getElementById("message").value,
+        };
+
+        fetch("https://ecoblocks-server.onrender.com/send-email", {
+          method: "POST",
+          headers: {
+            "Content-Type": "application/json",
+          },
+          body: JSON.stringify(formData),
+        })
+          .then((response) => response.json())
+          .then((data) => {
+            if (data.success) {
+              Swal.fire({
+                title: "Good job!",
+                text: "You Response Has Been Sent!",
+                icon: "success",
+              });
+            } else {
+              Swal.fire({
+                title: "Error",
+                text: "Try Again Later!",
+                icon: "error",
+              });
+            }
+          })
+          .catch((error) => {
+            console.error("Error:", error);
+            alert(
+              "There was an error sending your message. Please try again later."
+            );
+          })
+          .finally(() => {
+            submitBtn.disabled = false;
+            submitBtn.value = 'Send Message';
+            name: document.getElementById("name").value="";
+          contactNumber: document.getElementById("contactNumber").value="";
+          email: document.getElementById("email").value="";
+          message: document.getElementById("message").value="";
+        });
+      }
+    </script>
   </body>
 </html>

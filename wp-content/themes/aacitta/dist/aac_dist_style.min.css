@@ -10351,7 +10351,12 @@ a:focus {
         font-size: 1.4rem
     }
 }
-
+@media only screen and  (max-width:480px) {
+    #btn-wrapper{
+        display: flex !important;
+        flex-direction: column !important;
+    }
+}
 .btn {
     border: 1px solid transparent;
     display: inline-block;

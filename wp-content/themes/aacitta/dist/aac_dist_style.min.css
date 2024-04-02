@@ -10356,6 +10356,9 @@ a:focus {
         display: flex !important;
         flex-direction: column !important;
     }
+    #hero-img{
+        transform: translateY(-40px) !important;
+    }
 }
 .btn {
     border: 1px solid transparent;

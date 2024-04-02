@@ -30,21 +30,21 @@
 .btn3:hover{
     text-decoration: none;
 }
-.dealer-carousel{
+/* .dealer-carousel{
     -webkit-tap-highlight-color: transparent;
     position: relative;
     z-index: 1;
     display: flex;
     overflow-x: scroll;
-}
-.dealer-carousel .dealer-item{
+} */
+/* .dealer-carousel .dealer-item{
     width: 450px !important;
     margin: 0 15px;
 }
 .dealer-carousel .dealer-item .content-inner{
     width: 450px;
     margin: 0 15px;
-}
+} */
 @media only screen and (max-width: 767px) {
     .about-hero{
         flex-direction: column-reverse;

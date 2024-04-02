@@ -10435,6 +10435,54 @@ a:focus {
     color: #A5281B
 }
 
+
+.contactForm .label {
+    color: #000;
+    text-transform: uppercase;
+    font-size: 12px;
+    font-weight: 600; }
+  
+  .contactForm .form-control {
+    border: none; }
+  
+  #map {
+    width: 100%; }
+    @media (max-width: 767.98px) {
+      #map {
+        height: 300px; } }
+  
+  #contactForm .error {
+    color: red;
+    font-size: 12px; }
+  
+  #contactForm .form-control {
+    font-size: 16px; }
+  
+  #message {
+    resize: vertical; }
+  
+  #form-message-warning, #form-message-success {
+    display: none; }
+  
+  #form-message-warning {
+    color: red; }
+  
+  #form-message-success {
+    color: #28a745;
+    font-size: 18px;
+    font-weight: 500; }
+  
+  .submitting {
+    float: left;
+    width: 100%;
+    padding: 10px 0;
+    display: none;
+    font-size: 16px;
+    font-weight: 500;
+    color: #2553b8; }
+  
+
+
 #cf7md-form .cf7md-item,
 #cf7md-form input,
 #cf7md-form label,
@@ -10823,13 +10871,16 @@ body.archive .container {
 
 .product-animate-wrapper .content-inner {
     text-align: center;
-    position: realative;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
     z-index: 5
 }
 
 .product-animate-wrapper .content-inner img {
     filter: drop-shadow(-8px 10px 19px rgba(0, 0, 0, .16));
-    transform: translateY(-9999px)
+    transform: translateY(40px) !important;
 }
 
 .product-animate-wrapper .tagline {

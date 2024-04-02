@@ -1,0 +1,25 @@
+.btn3{
+    background-color: #002789 !important;
+    color: white !important;
+    padding: 8px 10px;
+    border-radius: 15px;
+    margin: 5px 10px;
+}
+.btn3:hover{
+    text-decoration: none;
+}
+
+.btn4{
+    background-color: #509030 ;
+    color: white ;
+    padding: 8px 10px;
+    border-radius: 15px;
+    margin: 5px 10px;
+    width: 130px;
+    border: none;
+}
+.btn4:hover{
+    background-color: transparent;
+    box-shadow: 2px 2px 8px #509030 !important;
+    color: #509030;
+}

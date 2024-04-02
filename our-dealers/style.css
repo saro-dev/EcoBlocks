@@ -1,0 +1,19 @@
+.become-a-dealer{
+    width: 100%;
+    background-color: snow;
+    padding: 30px 0;
+}
+.become-a-dealer h2{
+    text-align: center;
+}
+.become-a-dealer p{
+    display: flex;
+    justify-content: center;
+}
+.become-a-dealer a{
+    background-color: #002789 !important;
+    color: white !important;
+    padding: 8px 10px;
+    border-radius: 15px;
+    margin: 5px 10px;
+}
